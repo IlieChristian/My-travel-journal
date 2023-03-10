@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1c;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    margin-bottom:  0;
+}
+
+a, a:hover {
+    color: #fff;
+}
+
+hr { 
+    color: #fff;
+}
+
+.header { 
+    background-color: #F55A5A;
+}
+
+.logo {
+    width: 35px;
+    padding: 0;
+}
+
+.h-title {
+    font-size: 26px;
+    font-weight: 600;
+    width: auto;
+}
+
+.location-img {
+    aspect-ratio: 16 / 9; 
+    height: 80%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.location-img:hover {
+    scale: 1.05;
+}
+
+.journal-content {
+    color: #fff;
+}
+
+.location {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.view-btn {
+    font-size: 14px;
+}
+
+.journal-date, .journal-description {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #F55A5A;
+}
