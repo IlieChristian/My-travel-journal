@@ -9,7 +9,7 @@ export default function Item(props) {
                 </div>
                 <div className="col-lg-8 journal-content">
                     <div className="d-flex align-items-center mb-2">
-                        <img src="../public/geo-alt-fill.svg" className="map-logo "/>
+                        <img src="geo-alt-fill.svg" className="map-logo "/>
                         <p className="ms-1 location">{props.location}</p>
                         <a href={props.google} className="ms-3 view-btn">View on Google Maps</a>
                     </div>
